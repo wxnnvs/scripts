@@ -8,9 +8,9 @@ else
     if [ ! -d "upload" ]; then
         mkdir upload
         cd upload
-    else
-        cd upload
     fi
+
+    cd upload
 
     # Download the files
     echo "Downloading files..."
